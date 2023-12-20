@@ -13,7 +13,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Entity
 @Table(name = "event")
-public class events {
+public class events {       //setting up entity class for event record
 
     private int eventId;
     private String eventRef;
